@@ -3,6 +3,9 @@
 
 This project is a web application built with Streamlit that performs neural style transfer, allowing users to blend a content image with a style image using a deep learning model (VGG19). The result is a stylized image that reflects the content of the first image and the artistic style of the second.
 
+### Live Demo  
+[![View Live](https://img.shields.io/badge/View%20Live-%231DA1F2?style=for-the-badge&logo=streamlit&logoColor=white)](https://neural-style-transfer-app-rzrbpjunx3wrlaeiyytrgm.streamlit.app)
+
 ## Features
 
 - Upload and preview both content and style images through a user interface.
