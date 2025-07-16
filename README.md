@@ -29,50 +29,60 @@ neural-style-transfer-app/
 ├── images/ # Uploaded content/style images
 └── output/ # Saved stylized images
 
-bash
-Copy
-Edit
+---
+
 
 ## Installation & Setup
 
-1. **Clone the repository:**
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/neural-style-transfer-app.git
 cd neural-style-transfer-app
-Create and activate a virtual environment:
+````
+
+### 2. Create and activate a virtual environment
 
 ```bash
-Copy
-Edit
+# Create virtual environment
 python -m venv venv
-# For Windows
+
+# Activate (Windows)
 venv\Scripts\activate
-# For macOS/Linux
+
+# Activate (macOS/Linux)
 source venv/bin/activate
-Install the dependencies:
+```
+
+### 3. Install dependencies
 
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
-Run the Streamlit app:
+```
+
+### 4. Run the Streamlit app
 
 ```bash
-Copy
-Edit
 streamlit run app.py
-How It Works
-The backend uses a convolutional neural network (VGG19) to extract features from the content and style images. The model then generates an output image that minimizes the content loss and style loss, using gradient descent optimization.
+```
 
-The app interface handles image uploads, display, and triggering the transfer process. After processing, the output image can be viewed and downloaded.
+---
 
-License
-This project is open source and available under the MIT License.
+## How It Works
 
-Author
-Developed by Your Name
+The backend uses a convolutional neural network (VGG19) to extract features from the content and style images. These features are used to compute content and style losses. The generated image is optimized to minimize these losses, producing a stylized result.
 
-yaml
-Copy
-Edit
+The frontend is built with Streamlit. It allows users to upload images, view the results, and download the final stylized output.
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## Author
+
+Developed by **Muhammad Saad**
+
