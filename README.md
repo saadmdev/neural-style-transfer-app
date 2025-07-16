@@ -12,7 +12,7 @@ This project is a web application built with Streamlit that performs neural styl
 
 ## Technologies Used
 
-- Python 3.x
+- Python 3.10.x
 - TensorFlow and Keras
 - Streamlit
 - NumPy
@@ -39,7 +39,7 @@ neural-style-transfer-app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/neural-style-transfer-app.git
+git clone https://github.com/saadmdev/neural-style-transfer-app.git
 cd neural-style-transfer-app
 ````
 
@@ -87,10 +87,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## Author
 
 Developed by **Muhammad Saad**
-
-```
-
-✅ Just remember to replace `YOUR_USERNAME` with your actual GitHub username if you're linking the repository.
-
-Let me know if you want to add a "Live Demo", "Preview", or "Results" section later.
-```
