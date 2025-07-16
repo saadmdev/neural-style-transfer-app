@@ -1,3 +1,4 @@
+
 # Neural Style Transfer Web Application
 
 This project is a web application built with Streamlit that performs neural style transfer, allowing users to blend a content image with a style image using a deep learning model (VGG19). The result is a stylized image that reflects the content of the first image and the artistic style of the second.
@@ -19,16 +20,19 @@ This project is a web application built with Streamlit that performs neural styl
 
 ## Project Structure
 
+```
+
 neural-style-transfer-app/
 │
-├── app.py # Streamlit frontend interface
-├── style_transfer.py # Core neural style transfer logic
-├── requirements.txt # Python package dependencies
-├── README.md # Project documentation
+├── app.py                  # Streamlit frontend interface
+├── style\_transfer.py       # Core neural style transfer logic
+├── requirements.txt        # Python package dependencies
+├── README.md               # Project documentation
 │
-├── images/ # Uploaded content and style images
-└── output/ # Generated stylized output images
+├── images/                 # Uploaded content and style images
+└── output/                 # Generated stylized output images
 
+````
 
 ## Installation & Setup
 
@@ -84,3 +88,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Developed by **Muhammad Saad**
 
+```
+
+✅ Just remember to replace `YOUR_USERNAME` with your actual GitHub username if you're linking the repository.
+
+Let me know if you want to add a "Live Demo", "Preview", or "Results" section later.
+```
