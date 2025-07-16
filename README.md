@@ -21,15 +21,13 @@ This project is a web application built with Streamlit that performs neural styl
 
 neural-style-transfer-app/
 │
-├── app.py # Streamlit frontend
-├── style_transfer.py # Backend logic for style transfer
-├── requirements.txt # Python dependencies
+├── app.py # Streamlit frontend interface
+├── style_transfer.py # Core neural style transfer logic
+├── requirements.txt # Python package dependencies
 ├── README.md # Project documentation
 │
-├── images/ # Uploaded content/style images
-└── output/ # Saved stylized images
-
----
+├── images/ # Uploaded content and style images
+└── output/ # Generated stylized output images
 
 
 ## Installation & Setup
