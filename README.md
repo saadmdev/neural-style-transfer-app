@@ -38,11 +38,11 @@ Edit
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/saadmdev/neural-style-transfer-app.git
+git clone https://github.com/YOUR_USERNAME/neural-style-transfer-app.git
 cd neural-style-transfer-app
 Create and activate a virtual environment:
 
-bash
+```bash
 Copy
 Edit
 python -m venv venv
@@ -52,13 +52,13 @@ venv\Scripts\activate
 source venv/bin/activate
 Install the dependencies:
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
 Run the Streamlit app:
 
-bash
+```bash
 Copy
 Edit
 streamlit run app.py
@@ -71,5 +71,8 @@ License
 This project is open source and available under the MIT License.
 
 Author
-Developed by Muhammad Saad
+Developed by Your Name
 
+yaml
+Copy
+Edit
